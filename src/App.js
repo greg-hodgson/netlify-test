@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Search box</p>
+        <p>{process.env.API_KEY}</p>
         <p>Getting Airtable data...</p>
       </header>
     </div>
